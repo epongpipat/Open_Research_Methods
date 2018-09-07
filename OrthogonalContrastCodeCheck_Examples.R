@@ -1,5 +1,8 @@
 # examples
 
+# load function directly from github
+source("https://raw.githubusercontent.com/epongpipat/Research_Methods/master/OrthogonalContrastCodeCheck.R")
+
 # fail step 0 - contrast/dfs are incorrect
 OrthogonalContrastCodeCheck(cbind(c1=c(1,2,3),c2=c(-1,0,1),c3=c(-2,1,1)))
 OrthogonalContrastCodeCheck(cbind(c1=c(1,2,3),c2=c(-1,0,1),c3=c(-2,1,1),c4=c(-2,1,1),c5=c(-2,1,1)))
